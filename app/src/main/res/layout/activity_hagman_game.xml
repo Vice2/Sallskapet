@@ -371,8 +371,8 @@
 
     <ImageView
         android:id="@+id/gameLostImageView"
-        android:layout_width="169dp"
-        android:layout_height="223dp"
+        android:layout_width="237dp"
+        android:layout_height="256dp"
         android:layout_marginTop="16dp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
