@@ -8,10 +8,13 @@
         <entry key="app/src/main/res/drawable/gradient_background5.xml" value="0.166" />
         <entry key="app/src/main/res/drawable/gradient_drawable.xml" value="0.2505" />
         <entry key="app/src/main/res/drawable/gradient_drawable2.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/ic_default_monochrome__kopia_.xml" value="0.3285" />
+        <entry key="app/src/main/res/drawable/rounded_buttons_layout.xml" value="0.3285" />
         <entry key="app/src/main/res/drawable/test_background.xml" value="0.166" />
         <entry key="app/src/main/res/layout/activity_bokstavmotdjur.xml" value="0.275" />
         <entry key="app/src/main/res/layout/activity_choosehittaparen.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/activity_dog.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/activity_hagman_game.xml" value="0.3338541666666667" />
         <entry key="app/src/main/res/layout/activity_hangman.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_hittaparen.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28229166666666666" />

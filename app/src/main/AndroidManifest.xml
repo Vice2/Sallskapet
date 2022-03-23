@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sallskapet">
         <activity
+            android:name=".HangmanGameActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChoosehittaparenActivity"
             android:exported="false" />
         <activity
