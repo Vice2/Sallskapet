@@ -23,18 +23,6 @@ class MainActivity : AppCompatActivity() {
             Log.i("HEJ", "simon says")
         }
 
-
-
-        //bokstav mot ord
-        //Chinchilla
-        val match = findViewById<ImageView>(R.id.matchImageView)
-        match.setOnClickListener {
-            val intent = Intent(this, ChoosehittaparenActivity::class.java)
-            startActivity(intent)
-        }
-
-
-
         //hur många hundar
         //Ekorre
         val dog = findViewById<ImageView>(R.id.dogsImageView)

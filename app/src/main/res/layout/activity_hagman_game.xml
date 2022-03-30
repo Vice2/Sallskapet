@@ -56,6 +56,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_buttons_layout"
+        android:backgroundTint="@android:color/holo_red_dark"
+
         android:text="STARTA SPEL"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
