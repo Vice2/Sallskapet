@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         //Älg
         val hangman = findViewById<ImageView>(R.id.hangmanButton)
         hangman.setOnClickListener {
-            val intent = Intent(this, HangmanActivity::class.java)
+            val intent = Intent(this, HangmanGameActivity::class.java)
             startActivity(intent)
         }
 
