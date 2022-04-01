@@ -20,6 +20,7 @@ class SimonsaysActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_simonsays)
 
+
         var infotext = findViewById<TextView>(R.id.infoTextView)
 
         if (playerTurn)
@@ -29,7 +30,10 @@ class SimonsaysActivity : AppCompatActivity() {
             infotext.text = "VÄNTA"
         }
 
+
+
         newGame()
+
 
         findViewById<Button>(R.id.restartBtn).setOnClickListener {
             newGame()
@@ -83,6 +87,8 @@ class SimonsaysActivity : AppCompatActivity() {
             }
         }
 
+
+
     }
 
     fun checkCorrect()
@@ -110,6 +116,8 @@ class SimonsaysActivity : AppCompatActivity() {
                 Toast.makeText(this, "Correct", Toast.LENGTH_SHORT).show()
 
                 var random: Int = (0..3).random()
+
+
 
                 correctSeq.add(random)
                 doHighlight(0)
@@ -142,6 +150,8 @@ class SimonsaysActivity : AppCompatActivity() {
             findViewById<TextView>(R.id.infoTextView).text = "Vänta"
         }
 
+
+
         var animButton : Button? = null
 
         if(correctSeq[animnumber] == 0)
@@ -161,6 +171,7 @@ class SimonsaysActivity : AppCompatActivity() {
             animButton = findViewById<Button>(R.id.redBtn)
         }
 
+
         animButton!!.animate().apply {
             alpha(0f)
             duration = 500
@@ -173,6 +184,13 @@ class SimonsaysActivity : AppCompatActivity() {
             }.start()
 
         }.start()
+
+
+
+
+
+
+
 
     }
 
@@ -194,6 +212,12 @@ class SimonsaysActivity : AppCompatActivity() {
         alert.show()
     }
 
+
+
+
+
+
+
     fun newGame() {
         hej = 0
 
@@ -204,7 +228,17 @@ class SimonsaysActivity : AppCompatActivity() {
 
         val scoreText = findViewById<TextView>(R.id.scoreText)
 
+
+
+
+
+
+
         scoreText.text = hej.toString()
+
+
+
+
 
         correctSeq.add((0..3).random())
 
