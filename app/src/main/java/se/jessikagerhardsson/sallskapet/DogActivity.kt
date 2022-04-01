@@ -19,6 +19,7 @@ class Animal {
 class DogActivity : AppCompatActivity() {
 
 
+
     var animals = mutableListOf<Animal>()
     var animalsleft = mutableListOf<Animal>()
     var correctPosition = 0
